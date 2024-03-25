@@ -40,7 +40,7 @@ O algoritmo controla o robô da seguinter forma:
 <br>
 
 - Segundo procedimento/always:
-  + <div align="justify">No segundo procedimento tem-se a atribuição de saídas e do estado, constando na lista de sensibilidade o `state`, o `head` e o `left`. Nesse bloco, avaliamos quais foram as entradas e qual é o estado atual, para definirmos quais serão as saídas e o novo estado.</div>
+  + No segundo procedimento tem-se a atribuição de saídas e do estado, constando na lista de sensibilidade o `state`, o `head` e o `left`. Nesse bloco, avaliamos quais foram as entradas e qual é o estado atual, para definirmos quais serão as saídas e o novo estado.
 
 
 
