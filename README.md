@@ -19,7 +19,7 @@ Utilizando o `Quartus Prime Lite Edition` e o `ModelSim`, o projeto é simulado 
 
 
 ## Como funciona 
-![Alt text](mapa-2.png)
+![image](https://github.com/Edilton-Damasceno/Robo_Segue_Muro/assets/113069700/51c9adcf-f0ac-4e77-b439-3343fefdc19d)
 
 <div align="justify">O mundo do robô é uma matriz de células, na qual cada componente é livre (células brancas) ou ocupado por um muro (células escuras). O robô, mostrado como um triângulo, é colocado em qualquer célula livre, respeitando uma das direções paralelas ao gradeado da matriz (horizontal ou vertical), com sua frente voltada para qualquer um dos 4 sentidos possíveis (Norte, Sul, Leste ou Oeste). O robô possui 2 sensores binários: head (sensor situado na frente do robô, que retorna 1 quando a célula situada à frente do robô está ocupada por um muro – caso contrário, retorna 0) e left (sensor situado na lateral esquerda do robô, que retorna 1 quando a célula do lado esquerdo do robô é ocupada por um muro - caso contrário, retorna 0).</div>
 
@@ -47,8 +47,8 @@ O algoritmo controla o robô da seguinter forma:
 ### Finite Machine State (FSM)
 ---
 
-![Alt text](image-1.png)
+![image](https://github.com/Edilton-Damasceno/Robo_Segue_Muro/assets/113069700/eae64832-e401-4518-9ceb-e6eae7684562)
 
 ### Simulação
 ---
-  ![Alt text](image.png)
+![image](https://github.com/Edilton-Damasceno/Robo_Segue_Muro/assets/113069700/c7d5fc17-92ff-404f-bcef-d01bc79f9522)
