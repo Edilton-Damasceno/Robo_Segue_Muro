@@ -35,12 +35,12 @@ O algoritmo controla o robô da seguinter forma:
 <br>
 
 - Primeiro procedimento/always:
-  + <div align="justify">No primeiro procedimento é implementado o decodificador de próximo estado, em um bloco de procedimento always em que em sua lista de sensibilidade está o `clock` (ativo em baixo) e o `reset` (ativo em alto). Nele é tratado o evento de reset, em que quando ocorre, analisa-se quais são valores de entrada e atribui o devido valor ao estado.</div>
+  + <div align="justify">No primeiro procedimento é implementado o decodificador de próximo estado, em um bloco de procedimento always em que em sua lista de sensibilidade está o `clock` (ativo em baixo) e o `reset` (ativo em baixo). Nele é tratado o evento de reset, em que quando ocorre, analisa-se quais são valores de entrada e atribui o devido valor ao estado.</div>
 
 <br>
 
 - Segundo procedimento/always:
-  + <div align="justify">No segundo procedimento tem-se a atribuição de saídas e do estado futuro, também em um bloco de procedimento always, constando na lista de sensibilidade o `estado_atual`, o `head` e o `left`. Nesse bloco, avaliamos quais foram as entradas e qual é o estado atual, para definirmos quais serão as saídas e o estado futuro.</div>
+  + <div align="justify">No segundo procedimento tem-se a atribuição de saídas e do estado, constando na lista de sensibilidade o `state`, o `head` e o `left`. Nesse bloco, avaliamos quais foram as entradas e qual é o estado atual, para definirmos quais serão as saídas e o novo estado.</div>
 
 
 
